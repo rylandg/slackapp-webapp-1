@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 
 import { AuthProvider } from '@reshuffle/react-auth';
 
+import 'sanitize.css';
+import 'sanitize.css/forms.css';
+import 'sanitize.css/typography.css';
+
 import './index.css';
 
 import App from './App';

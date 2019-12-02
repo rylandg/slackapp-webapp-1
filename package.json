@@ -1,5 +1,5 @@
 {
-  "name": "identity-boilerplate",
+  "name": "slackapp-webapp",
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
@@ -11,6 +11,8 @@
     "fullstack"
   ],
   "dependencies": {
+    "@material-ui/core": "^4.7.0",
+    "@material-ui/icons": "^4.5.1",
     "@reshuffle/code-transform": "^0.1.0",
     "@reshuffle/db": "^0.5.5",
     "@reshuffle/fetch-runtime": "^0.1.0",
@@ -18,13 +20,13 @@
     "@reshuffle/passport": "^0.1.2",
     "@reshuffle/react-auth": "^0.1.4",
     "@reshuffle/server-function": "^0.2.2",
-    "eslint": "^5.16.0",
-    "eslint-config-react-app": "^5.0.2",
-    "eslint-plugin-prettier": "^3.1.1",
+    "@slack/bolt": "^1.4.1",
     "express": "^4.17.1",
+    "node-sass": "^4.13.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "sanitize.css": "^11.0.0"
   },
   "scripts": {
     "start": "cross-env EXTEND_ESLINT=true react-scripts start",
@@ -51,7 +53,10 @@
     "cross-env": "^6.0.3",
     "prettier": "^1.19.1",
     "stylelint": "^12.0.0",
-    "stylelint-config-standard": "^19.0.0"
+    "stylelint-config-standard": "^19.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-react-app": "^5.0.2",
+    "eslint-plugin-prettier": "^3.1.1"
   },
   "stylelint": {
     "extends": "stylelint-config-standard"
